@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marvel Hero Portfolio</title>
+<style>
+    body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:black;
+    color:white;
+}
+
+/* Header */
+
+header{
+    background:#e62429;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
+}
+
+/* Navigation */
+
+nav{
+    background:#111;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:#ffd700;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Hero Section */
+
+.hero{
+    background:url("images/hero.jpg") center/cover;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero h2{
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+}
+
+/* Cards */
+
+.card{
+    background:#1c1c1c;
+    margin:30px;
+    padding:25px;
+    border-left:6px solid #e62429;
+}
+
+.card img{
+    width:200px;
+    margin-bottom:10px;
+}
+
+/* Skills */
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    padding:8px;
+}
+
+/* Projects */
+
+.projects{
+    margin:30px;
+}
+
+.project-card{
+    background:#1c1c1c;
+    padding:20px;
+    margin-bottom:20px;
+    border:2px solid #e62429;
+}
+
+.project-card img{
+    width:100%;
+    max-width:400px;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    background:#e62429;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MY HERO PORTFOLIO</h1>
+    <p>Every Developer Has An Origin Story</p>
+</header>
+
+<nav>
+    <a href="#about">Origin</a>
+    <a href="#skills">Powers</a>
+    <a href="#projects">Missions</a>
+    <a href="#contact">Shield Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome Hero!</h2>
+</section>
+
+<section id="about" class="card">
+    <h2>Origin Story</h2>
+    <img src="images/hero.jpg" alt="Hero Image">
+    <p>
+        I am a passionate student developer learning web development.
+        Like every Marvel hero, my coding journey started with curiosity
+        and continues with building amazing projects.
+    </p>
+</section>
+
+<section id="skills" class="card">
+    <h2>Super Powers</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+
+    <h2>Hero Missions</h2>
+
+    <div class="project-card">
+        <img src="images/project1.jpg">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website.</p>
+    </div>
+
+    <div class="project-card">
+        <img src="images/project2.jpg">
+        <h3>Task Manager App</h3>
+        <p>A web app to manage daily tasks.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="card">
+    <h2>Contact HQ</h2>
+    <p>Email: hero@student.com</p>
+    <p>GitHub: github.com/student</p>
+</section>
+
+<footer>
+    <p>© 2026 Hero Portfolio</p>
+</footer>
+
+</body>
+</html>

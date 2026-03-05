@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:black;
+    color:white;
+}
+
+/* Header */
+
+header{
+    background:#e62429;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
+}
+
+/* Navigation */
+
+nav{
+    background:#111;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:#ffd700;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Hero Section */
+
+.hero{
+    background:url("images/hero.jpg") center/cover;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero h2{
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+}
+
+/* Cards */
+
+.card{
+    background:#1c1c1c;
+    margin:30px;
+    padding:25px;
+    border-left:6px solid #e62429;
+}
+
+.card img{
+    width:200px;
+    margin-bottom:10px;
+}
+
+/* Skills */
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    padding:8px;
+}
+
+/* Projects */
+
+.projects{
+    margin:30px;
+}
+
+.project-card{
+    background:#1c1c1c;
+    padding:20px;
+    margin-bottom:20px;
+    border:2px solid #e62429;
+}
+
+.project-card img{
+    width:100%;
+    max-width:400px;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    background:#e62429;
+    padding:15px;
+}
